@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Transition-Timing-Function Examples</title>
+<style>
+.transEx {
+	margin: 2em;
+	width: 120px;
+	height: 40px;
+	border: 2px solid;
+	border-color: #666;
+	background-color: #066882;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: .5em;
+	transition: all 3s;
+}
+#default {
+	transition-timing-function: ease;	
+}
+#linear {
+	transition-timing-function: linear;	
+}
+#ease-in {
+	transition-timing-function: ease-in;	
+}
+#ease-out {	
+	transition-timing-function: ease-out;	
+}
+#ease-in-out {
+	transition-timing-function: ease-in-out;	
+}
+#cubic-bezier {
+	transition-timing-function: cubic-bezier(0.950, 0.050, 0.795, 0.035);	
+}
+.transEx:hover {
+	background-color: #FC8F30;
+	color: #000;
+	transform: translate(900px, 0);
+}
+</style>
+</head>
+
+<body>  <div id="default" class="transEx">Ease (Default)</div>
+  <div id="linear" class="transEx">Linear</div>
+  <div id="ease-in" class="transEx">Ease-In</div>
+  <div id="ease-out" class="transEx">Ease-Out</div>
+  <div id="ease-in-out" class="transEx">Ease-In-Out</div>
+  <div id="cubic-bezier" class="transEx">Cubic-Bezier</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Basic Transition</title>
+<style type="text/css">
+p {
+	padding: 5px 10px;
+	font-size: 24px;
+	color: #fff;
+}
+
+/*@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}*/
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+</style>
+</head>
+
+<body>
+<div>
+<p>Hi</p>
+</div>
+</body>
+</html>

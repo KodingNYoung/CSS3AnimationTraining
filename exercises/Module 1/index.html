@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Basic Transition</title>
+<style type="text/css">
+a {
+	background: orange;
+	padding: 5px 10px;
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+	transition: background-color 1s ease;
+}
+a:hover {
+	background-color: rgba(128,0,128,0.5);
+}
+div {
+	width: 300px;
+    height: 100px;
+    background-color: yellow;
+}
+div:active {
+	/*transform-origin: bottom left;*/
+	transform: translate(100px,300px) rotate(30deg) scale(2);
+
+}
+</style>
+</head>
+
+<body>
+<div>
+<a href="#">Home Page</a>
+</div>
+</body>
+</html>
