@@ -4,38 +4,54 @@
 <meta charset="UTF-8">
 <title>Basic Transition</title>
 <style type="text/css">
-a {
-	background: orange;
-	padding: 5px 10px;
-	font-size: 24px;
-	color: #fff;
-	text-decoration: none;
-	transition: background-color 1s ease;
-}
-a:hover {
-	background-color: rgba(128,0,128,0.5);
-}
-div {
+#div1 {
 	width: 300px;
     height: 100px;
-    background-color: yellow;
-    /*transition-timing-function: ease-in;*/
-    transition-timing-function: cubic-bezier(0.950, 0.050, 0.795, 0.035);
-    transition: all 2s;
-    /*transition: width 1s;
-    transition-delay: 2s;*/
+    background-color: blue;
+    /*transition: width 2s;*/
+    /*transition: width 2s,height 5s, background-color 3s;*/
+    /*transition: width 2s;*/
+    /*transition: transform 2s;*/
+    /*transition-timing-function: cubic-bezier(.82,.18,.3,.88);*/
+    /*transition-timing-function: ease;*/
+    transition: width 2s 1s linear, height 3s ease;
 }
-div:hover {
+#div1:hover {
 	width: 600px;
-	background-color: blue;
+	height: 600px;
+   /* background-color: red;*/
+	/*transform: translate(100px,200px);
+*/
+}
+#div2 {
+	width: 300px;
+    /*height: 100px;*/
+    /*top: 300px;*/
+    background-color: yellow;
+    /*transition: width 2s,height 5s;*/
+    transition: width 2s;
+    /*transition-timing-function: cubic-bezier(0,.5,.98,.26);*/
+    transition-delay: 2s;
+}
+#div2:hover {
+	width: 600px;
+/*	height: 600px;*/
 
+}
+p {
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
 }
 </style>
 </head>
 
 <body>
-<div>
-<a href="#">Home Page</a>
+<div id="div1">
+<p>Transition Demo</p>
 </div>
+<!-- <div id="div2">
+<p>Transition Demo 2</p>
+</div> -->
 </body>
 </html>

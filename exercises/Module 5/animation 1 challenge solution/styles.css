@@ -19,6 +19,7 @@ body {
 }
 
 @keyframes slide {
-	from {transform: translateX(0);}
-	to {transform: translateX(900px);}
+	0%{transform: translateX(0);}
+	50%{transform: translateX(500px) translateY(-350px);}
+	100%{transform: translateX(1200px) translateY(350px);}
 }

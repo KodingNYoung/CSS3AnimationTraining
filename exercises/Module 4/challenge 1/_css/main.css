@@ -300,6 +300,7 @@ section.info li {
 section.info li a {
 	display: block;
 	background-color: #FBAE2C;
+	transition: background 0.5s ease-in;
 }
 section.info li a:hover {
 	background: url(../_images/diag_pattern.png);
@@ -594,6 +595,7 @@ input[type="text"], input[type="email"], input[type="search"],textarea, select {
 	width: 318px;
 	padding: .5em;
 	font-size: 1em;
+	transition: background 0.5s ease-in;
 }
 textarea {
 	height: 128px;

@@ -4,6 +4,16 @@
 	display:block;	
 	background:transparent url(walker_frames.png) 0 0 no-repeat;
 	margin:3em auto;
+	animation-name: walker;
+	animation-duration: 2s;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+}
+
+@keyframes walker {
+	from {background-position: 0 0;}
+	to {background-position: 0 100%;}
+
 }
 
 

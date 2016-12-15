@@ -686,3 +686,23 @@ footer .col2 {
 .status.s360 {
 	width: 360px;
 }
+
+.status {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: background 1s ease-in;
+}
+.status h3 {
+	margin-top: 40px;
+	padding: 5px 0;
+	background-color: rgb(168,88,163);
+	color: white;
+	text-align: center;
+}
+.status:hover {
+	opacity: .8;
+	background: rgba(168,88,163,0.8);
+}

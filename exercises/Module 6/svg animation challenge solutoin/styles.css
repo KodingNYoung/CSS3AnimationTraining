@@ -4,7 +4,7 @@
 }
 
 .fill {
-  animation: charge 1s cubic-bezier(.17,.67,.54,.99), changeCol 1s ease-out forwards;
+  animation: charge 1s , changeCol 1s forwards;
 }
 
 
