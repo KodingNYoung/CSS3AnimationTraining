@@ -1,5 +1,5 @@
 # CSS3 Animation Training
-## by [Tertiary Infotech Pte. Ltd] (https://www.tertiarycourses.com.sg/)
+## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [CSS3 Animation Training](https://www.tertiarycourses.com.sg/advanced-css3-animation-training.html) course. 
 
